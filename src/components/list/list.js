@@ -86,10 +86,10 @@ class List extends Component {
                             }
                         </div>
                         <div style={{marginLeft: '10px'}}>
-                            <button onClick={() => this.setState({editIndex: index})}>Редактировать</button>
+                            <button className="btn btn-outline-success btn-sm float-right" onClick={() => this.setState({editIndex: index})}>Редактировать</button>
                         </div>
                         <div style={{marginLeft: '10px'}}>
-                            <button onClick={() => removeFromEditList(index)}>Удалить</button>
+                            <button className="btn btn-outline-success btn-sm float-right" onClick={() => removeFromEditList(index)}>Удалить</button>
                         </div>
                     </div>
                 ))}
